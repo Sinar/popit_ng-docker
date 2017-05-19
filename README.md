@@ -18,7 +18,7 @@ A webserver is not provided. You will have to provide your own webserver to act 
 
 * Docker and docker-compose
 * At least 3GB of RAM
-* At least 2GB of free disk space
+* At least 1GB of free disk space
 * Webserver with reverse proxy support
 
 ## Usage
