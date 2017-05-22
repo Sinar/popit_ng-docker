@@ -3,6 +3,8 @@ import os
 
 DEBUG = False
 
+ALLOWED_HOSTS = [".sinarproject.org"]
+
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
