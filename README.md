@@ -27,5 +27,6 @@ A webserver is not provided. You will have to provide your own webserver to act 
 1. Create a directory named ```esdata```
 1. Make sure the ```esdata``` directory is readable and writable by UID 1000
 1. Add ```vm.max_map_count=262144``` to ```/etc/sysctl.conf``` or equivalent
+1. Copy ```env_sample``` to ```.env``` and set a random password to the ```POSTGRES_PASSWORD``` variable
 1. Run ```docker-compose up``` to start the services
 1. Configure your webserver to reverse proxy port 8000 on the Docker host, as well as to serve files in the ```static``` directory at the URL ```/static```

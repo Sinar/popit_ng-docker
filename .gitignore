@@ -1,3 +1,4 @@
 static
 pgdata
 esdata
+.env
